@@ -1,0 +1,88 @@
+@charset "UTf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #800080;  /* fallback for old browsers */
+    
+    background: #d9a7c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #68cc7e, #84a7ad);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #7cabd6, #47ad3d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+}
+#page{
+    width: 300px;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #ccc;
+    padding: 50px 25px;
+}
+#signup{
+    display: none;
+}
+#login h1,#signup h1
+
+{
+  font-family: 'Ubuntu', sans-serif; /* Use Ubuntu font for the body text */
+}
+
+#login_email,#login_password,#signup_name,#password,#signup_email,#phone{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    padding-left: 3px;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 16px;
+    outline: none; 
+    font-family: 'Ubuntu', sans-serif; /* Use Ubuntu font for the body text */
+    color: #727272;
+
+}
+#login_frm{
+    margin-top: 30px;
+}
+#signup_frm{
+    margin-top: 10px;
+}
+
+#login_btn,#signup_btn{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 16px; 
+color: white;
+font-family: 'Ubuntu', sans-serif; /* Use Ubuntu font for the body text */
+background: linear-gradient(to right, #212bdb, #a8a8cc, #30b60e);
+cursor: pointer;
+margin-top: 10px;
+
+} 
+#login p,#signup p{
+    font-family: 'Ubuntu', sans-serif; /* Use Ubuntu font for the body text */
+margin-top: 20px;
+font-size: 14px;
+text-align: center;
+
+}
+#login span,#signup span{
+color: blue;
+cursor: pointer;
+}
+#email_notice,#lemail,#lpassword
+{ 
+    font-family: 'Ubuntu', sans-serif;
+    color:red;
+    margin-top: 13px;
+    display: none;
+    
+
+}
